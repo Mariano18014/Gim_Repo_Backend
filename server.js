@@ -1,10 +1,11 @@
 import express from "express"
+import UserRoute from "./routes/userRoute";
 
 const app = express.app();
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-//app.use('/route/user', new UserRoute().start());
+app.use('/route/user', new UserRoute().start());
 //app.use('', );
 
 const PORT = process.env.PORT;
