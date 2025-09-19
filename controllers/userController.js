@@ -1,4 +1,4 @@
-
+import UserService from "../services/userService";
 
 class UserController {
     constructor () {
