@@ -1,4 +1,4 @@
-
+import UserModel from "../models/userModel";
 
 class UserService {
     constructor () {
